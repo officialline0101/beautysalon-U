@@ -644,7 +644,7 @@
             // LINEトークにメッセージを送信
             liff.sendMessages([{
                 type: 'text',
-                text: `≪ビューティサロン U≫\n【ご来店日】\n・${formData.message}\n\n【お名前】\n・${formData.message2}\n\n【ご職業】\n・${formData.priorityCount}`
+                text: `≪アンケート≫\n【お名前】\n・${formData.message}\n\n【ご年齢】\n・${formData.message2}\n\n【誕生月】\n・${formData.priorityCount}`
             }]).then(() => {
                 /* メッセージ送信成功時の処理 */
                 alert('ご記入ありがとうございます。同意書が表示されますので、ご確認ください。');
